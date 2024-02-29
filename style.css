@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.nav{
+    background: rgb(255, 255, 255, 1);
+}
+
+.btn{
+    background: rgb(56, 214, 158,1);
+    color: rgb(247, 247, 247,1);
+    font-family: "Noto sans", sans-serif;
+    font-weight: 600;
+}
+
+.nav-ul a{
+    color: rgb(15,15,15,1);
+    font-family: "Noto sans", sans-serif;
+    font-weight: 600;
+
+}
+
+/* main */
+main{
+    background-image: url(assets/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    color: rgb(227, 227, 227,1);
+
+}
+
+main h2{
+    font-family: "Noto sans",sans-serif;
+    font-weight: 700;
+}
+
+main p{
+    font-family: "Noto sans", sans-serif;
+    font-weight: 500;
+}
+
+@media (max-width: 475px){
+    main p{
+        width: 100%
+    }
+    main h2{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    main p{
+        width: 38%
+    }
+    main h2{
+        width: 30%;
+    }
+}
