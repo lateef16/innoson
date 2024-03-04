@@ -81,3 +81,22 @@ main p{
     max-width: 100%;
     height: auto;
 }
+
+.section-3{
+    background-image: url(assets/elevating\ africa.jpg);
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: "Noto sans", sans-serif;
+    font-weight: 700;
+}
+
+.footer{
+    background:rgb(15, 15, 15,1)
+    background-position relative;z-index: 1;
+    font-family: "Noto Sans", sans-serif;
+    
+    
+}
